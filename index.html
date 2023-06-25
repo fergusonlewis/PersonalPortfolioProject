@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./dropdowns.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
     <script src="./script.js"></script>
     <title>Lewis Ratcliffe</title>
 </head>
 <body>
     <nav id="navbar">
+        <h2>Lewis Ratcliffe</h2>
         <ul>
-            <li id="nav-name">Lewis Ratcliffe</li>
-            <li class="nav-link"><a href="">About Me</a></li>
-            <li class="nav-link"><a href="">Process</a></li>
-            <li class="nav-link"><a href="">Skills</a></li>
-            <li class="nav-link"><a href="">Contact</a></li>
+            <li class="nav-link"><a href="#about-me">About Me</a></li>
+            <li class="nav-link"><a href="#dropdown">Projects</a></li>
+            <li class="nav-link"><a href="#skill-section">Skills</a></li>
+            <li class="nav-link"><a href="./contact.html" target="_blank">Contact</a></li>
         </ul>
     </nav>        
 
@@ -24,27 +26,33 @@
         <p class="lewis-title">I am a full-time project coordinator based in Dundee currently training 
                                 to transition in to front-end web development.
                                 My interest in computing developed in 2019 and 
-                                led to me completing an HND in technical support in June 2022
+                                led to me completing an HND in technical support in June 2022.<br><br>
                                 In my time as a student I gained proficiency in writing Bash shell
-                                scripts and also completed an introductory Python Module
+                                scripts and also completed an introductory Python Module.
                                 My current goal is to apply my pre-existing skills and expand on my knowledge to learn the 
-                                languages required to build websites and ultimately start a long-term career as a developer.</p>
+                                languages required to build websites and ultimately start a long-term career as a developer.
+                                <br><br>
+                                In my free time I enjoy music, gaming and football. I am a big fan of Scottish indie music and 
+                                Cowdenbeath Football Cluband would
+                                love the opportunity to apply my coding skills to a project in the music industry or use my skills to
+                                help out a lower-league football club.
+                                </p>
 
         <img src="./Resources/Images/me.png" alt="A photo of Lewis Ratcliffe">
     </div>
 
-    <div class="dropdown">
+    <div id="dropdown">
+        <h2>My Projects</h2>
         <button onclick="dropdown1()" class="dropbtn">Dasmoto's Arts and Crafts</button>
-        <div id="myDropdown" class="dropdown-content1">
-            <img src="./Resources/Images/dasmotos.png" alt="Dasmoto's homepage">
+        <div id="art-dropdown" class="dropdown-content1">
+            <img class="art-pic" src="./Resources/Images/dasmotos.png" alt="Dasmoto's homepage">
             <p>In this project, I built a homepage for a fictional arts and crafts retailer.
                 The end result was a responsive webpage with colourful styling and an easy-to-read layout.</p>
         </div>
     
         <button onclick="dropdown2()" class="dropbtn">Tea Cosy</button>
         <div id="DropdownTea" class="dropdown-content2">
-            <img src="./Resources/Images/tea1.png" alt="Tea Cosy Intro">
-            <img src="./Resources/Images/tea2.png" alt="Tea Cosy Products">
+            <img src="./Resources/Images/tea1.png" alt="Tea Cosy Product">
             <p>In this project, I built a homepage for a fictional tea retailer.
                     This website was also responsive and easy to read but used different forms of styling such as
                     a banner over a background image as well as leaning on multiple flexbox elements to create a more
@@ -60,8 +68,15 @@
     </div>
 
     <div id="skill-section">
-
+        <h2>My Skills</h2>
+        <img src="./Resources/Images/html-logo-new.png" alt="HTML logo">
+        <img src="./Resources/Images/css-logo-new.png" alt="CSS logo">
+        <img src="./Resources/Images/JavaScript-logo.png" alt="JavaScript logo">
+        <img src="./Resources/Images/git-logo.png" alt="Git logo">
     </div>
-
 </body>
+
+<footer>
+    <p>Product of Scotland</p>
+</footer>
 </html>

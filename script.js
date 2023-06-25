@@ -1,5 +1,6 @@
+//Dasmoto project dropdown
 function dropdown1() {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("art-dropdown").classList.toggle("show");
     }
 
 
@@ -16,6 +17,7 @@ function dropdown1() {
     }
     }
 
+//Tea project dropdown
 function dropdown2() {
     document.getElementById("DropdownTea").classList.toggle("show");
     }
@@ -34,6 +36,7 @@ function dropdown2() {
     }
     }
 
+//Company homepage project dropdown
 function dropdown3() {
     document.getElementById("DropdownCompany").classList.toggle("show");
     }
